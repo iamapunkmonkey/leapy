@@ -5,9 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:leapy"
         mc:Ignorable="d"
+        WindowStyle="None"
+        ShowInTaskbar="False"
         Title="MainWindow" Height="450" Width="800"
         AllowsTransparency="True"
-        WindowStartupLocation="Manual">
-
-    <Image Source="unicorn.png" />
+        WindowStartupLocation="Manual"
+        Topmost="True"
+        >
+        <Image Source="unicorn.png" />
 </Window>
